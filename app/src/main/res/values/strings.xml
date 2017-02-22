@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RecycleTest</string>
+    <string name="textview">text view</string>
+    <string name="category_text">category text</string>
+    <string name="address_text">address text</string>
+    <string name="more_info">more info button</string>
+    <string name="select">select button</string>
+    <string name="yelp_image">yelp image</string>
+</resources>
