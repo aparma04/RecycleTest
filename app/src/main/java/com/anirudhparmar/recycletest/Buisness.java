@@ -5,13 +5,17 @@ package com.anirudhparmar.recycletest;
  */
 
 public class Buisness {
-    String name;
-    String address;
+    private String name;
+    private String address;
+    private String imageUrl;
 
-    public Buisness(String name, String address) {
+
+    public Buisness(String name, String address, String imageUrl) {
         this.name = name;
         this.address = address;
+        this.imageUrl = imageUrl;
     }
+
 
     public String getName() {
         return name;
@@ -19,5 +23,9 @@ public class Buisness {
 
     public String getAddress() {
         return address;
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
     }
 }
